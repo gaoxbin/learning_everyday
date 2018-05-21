@@ -8,13 +8,12 @@
 #ifndef ALIST_H_
 #define ALIST_H_
 
+#if 0
 #include <iostream>
 
 #include "list_template.h"
 
 using namespace std;
-
-#define DefaultListSize 100
 
 template <typename Elem>
 class AList : public List<Elem>
@@ -126,6 +125,6 @@ void AList<Elem>::print() const
 	while(temp < listSize) cout << listArray[temp++]<< " ";
 	cout << ">" << endl;
 }
-
+#endif
 
 #endif /* ALIST_H_ */

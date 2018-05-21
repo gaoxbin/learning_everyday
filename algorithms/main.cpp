@@ -4,7 +4,16 @@
  *  Created on: 2018年5月16日
  *      Author: Administrator
  */
+/**
+ * 大话数据结构：风清扬
+ * 经典语录：
+ *      1.只有真正掌握技术的人，才有可能去享受它。
+ *      2.不怕苦，吃苦半辈子，怕吃苦，吃苦一辈子。
+ *
+ *
+ */
 
+#if 0
 #include "AList.h"
 #include "hashtable.h"
 
@@ -89,3 +98,8 @@ int main(int argc, char **argv)
 
 	return 0;
 }
+#endif
+
+
+
+

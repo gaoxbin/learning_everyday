@@ -8,6 +8,10 @@
 #ifndef LIST_TEMPLATE_H_
 #define LIST_TEMPLATE_H_
 
+#if 0
+
+#define DefaultListSize 100
+
 template <typename Elem> class List {
 
 	virtual void clear() = 0;
@@ -36,5 +40,7 @@ template <typename Elem> class List {
 
 	virtual void print() const = 0;
 };
+#endif
+
 
 #endif /* LIST_TEMPLATE_H_ */
