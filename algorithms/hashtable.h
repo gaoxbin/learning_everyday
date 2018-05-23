@@ -55,6 +55,7 @@ struct kv
 struct HashTable
 {
     struct kv ** table;
+//    struct kv * table;
 };
 
 /* constructor of struct kv */
